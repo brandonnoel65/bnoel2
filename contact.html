@@ -1,0 +1,179 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>pro1</title>
+	<link rel="stylesheet" href="assets/css/contact.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<style>		body
+	{
+			background: url(../img/bg-17-full.jpg);
+			margin: 0;
+		}
+
+		.topnav {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		.topnav a {
+			float: left;
+			display: block;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		.topnav a:hover {
+			background-color: #ddd;
+			color: black;
+		}
+
+
+
+
+
+
+ul
+{
+	margin:100;
+	padding:0;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,50%);
+}
+
+ul li
+{
+	list-style: none;
+	float: none;
+	margin: 30px;
+	width: 100px;
+	line-height: center;
+	background: #c89729;
+	border-radius: 100%;
+	font-size: 50px;
+	position: relative;
+	transition: .5s ease-in-out;
+	color:white;
+	z-index: 1;
+}
+
+ul li:link, ul li:nth-child(1){
+		height: 85px;
+		padding-top:15px;
+}
+ul li:nth-child(2){
+		height: 90px;
+		padding-top:10px;
+}
+ul li:nth-child(3){
+		height: 80px;
+		padding-top:20px;
+}
+
+ul li: before
+{
+content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #c89729;
+	border-radius: 50%;
+	transform: scale(0);
+	transition: .5s ease-in-out;
+	z-index: -1;
+}
+
+ul li: hover:before
+{
+	transform: scale(1.5);
+}
+
+ul li:hover
+{
+	color:#c89729;
+}
+ul a{
+	color:white;
+}
+
+/****Sherills Edits****/
+
+.icons ul {
+	transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+	<div class="topnav">
+		<a href="index.html">Home</a>
+		<a href="contact.html">Contact</a>
+		<a href="https://www.facebook.com/brandon.toosmovve">Facebook</a>
+	</div>
+	<div align="center">
+		<h1>Lets Be Friends</h1>
+		<h1>Contact info</h1>
+	</div>
+
+	<div icons>
+		<ul>
+			<div align="center">
+				<li><i class="far fa-envelope-open" style="font-size:60px;"></i></li>
+				<h1>Brandonnoel65@gmail.com</h1>
+
+				<li><a href="https://www.youtube.com/channel/UCcte4ag-Ps2gzLNHPdpQ1mQ"><i class="fab fa-youtube" style="font-size:60px;"></i></a></li>
+
+				<li><a href="https://www.twitch.tv/xsupremexkage"><i class="fab fa-twitch" style="font-size:60px;"></i></a>
+				</li>
+			</div>
+		</ul>
+	</div>
+
+	<div align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12107.21929085631!2d-74.0079716!3d40.6562326!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97a4c7862e8ef155!2sIndustry+City!5e0!3m2!1sen!2sus!4v1518190888059" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+	<form>
+        <div align="center">
+            <input type="text" id="input-name" placeholder="Enter Name" required>
+            <br>
+            <input type="email" id="input-name" placeholder="Enter Email Address" required>
+            <br>
+            <input type="text" id="input-name" placeholder="Subject">
+            <br>
+        </div>
+        <div align="center">
+            <textarea name="message" type="text" placeholder="Message Here"></textarea>
+        </div>
+        <div align="center">
+            <input type="submit" value="Submit" id="input-submit">
+        </div>
+    </form>
+
+
+</body>
+
+</html>
